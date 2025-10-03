@@ -15,6 +15,16 @@
 - Use **Checklists** to operationalize ideas during planning, reviews, and post-mortems.  
 - 
 
+## Table of Contents
+- [1. Razors](#1-razors-heuristics-for-cutting-noise)
+- [2. Cognitive Biases](#2-cognitive-biases-mental-traps--mitigations) 
+- [3. Mental Models](#3-mental-models-portable-tools-for-thinking)
+- [4. Game Theory](#4-game-theory-strategic-interaction--practice)
+- [5. History & Cycles](#5-history--cycles-closer-in-actionable-case-library)
+- [6. Operational Guides](#6-putting-it-together-operational-guides)
+- [7. Further Study](#7-further-study-selected-sources)
+- [8. Quick Reference](#8-quick-reference-checklists-printer-friendly)
+
 ---
 
 ## 1\) Razors (Heuristics for Cutting Noise)
