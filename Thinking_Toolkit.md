@@ -399,7 +399,7 @@ Model how rational (and boundedly rational) actors behave when outcomes depend o
 - **Dominant Strategy:** Best action regardless of others.  
 - **Nash Equilibrium:** No player can improve by unilateral deviation (John Nash, 1950).  
 - **Subgame‑Perfect Equilibrium:** Credible strategies at every point in sequential games.  
-- **Mixed Strategies:** Randomization to stay unpredictable (e.g., penalty kicks).  
+- **Mixed Strategies:** Randomization to stay unpredictable (e.g., penalty kicks). *See 4.5 for why this is more subtle than it sounds.*
 - **Repeated Games:** “Shadow of the future” can sustain cooperation.  
 - **Bayesian Games:** Incomplete information; beliefs and signaling matter.  
 - **Correlated Equilibrium:** Players coordinate via shared signals (Aumann).  
@@ -437,18 +437,73 @@ Model how rational (and boundedly rational) actors behave when outcomes depend o
 
 ### 4.4 Playbook
 
-- Identify players, payoffs, information, and timing.  
-- Look for dominant strategies and potential equilibria.  
-- If PD‑like, build shadow of the future: repetition, reputation, punishment.  
-- Use pre‑commitment, credible threats/promises (Schelling).  
+- Identify players, payoffs, information, and timing.
+- Look for dominant strategies and potential equilibria.
+- If PD‑like, build shadow of the future: repetition, reputation, punishment.
+- Use pre‑commitment, credible threats/promises (Schelling).
 - Change the game: adjust payoffs, add monitoring, alter information structure.
+
+### 4.5 Counterintuitive Subtleties
+
+Introductory game theory examples are useful teaching tools, but the real power lies in results that defy common sense. These subtleties matter most when applying game theory to complex, real-world situations.
+
+#### 4.5.1 "Randomizing" Is Rarely About Flipping a Coin
+
+Mixed strategies are usually taught as literal randomization (a tennis player randomly choosing serve direction). In practice, they mean something deeper:
+
+- **Population interpretation:** A mixed strategy of 2/3 and 1/3 often represents a stable proportion within a population — e.g., 2/3 of taxpayers comply honestly while 1/3 cheat — not one person rolling dice.
+- **Belief interpretation:** A mixed strategy probability can represent one player’s *internal uncertainty* about what the other will do, rather than deliberate randomization by the opponent.
+- *Apply:* When you see a "mixed equilibrium," ask whether it describes individual behavior, population distribution, or epistemic uncertainty. The policy implications differ dramatically.
+
+#### 4.5.2 The Paradox of Changing Payoffs
+
+In mixed-strategy equilibrium, changing one player’s penalties or rewards often changes the *other* player’s behavior — not the target’s.
+
+- **Tax evasion paradox:** Doubling fines for tax cheating doesn’t reduce cheating in equilibrium. Because strategies are intertwined, the higher penalty changes the *auditor’s* behavior (fewer audits), leaving compliance unchanged. To change a player’s equilibrium mix, you must change the *other* player’s payoffs.
+- **Tennis paradox:** If a player massively improves her backhand, opponents hit to her backhand less, so she actually *uses* her improved backhand less in equilibrium. The indirect strategic effect dominates the direct effect.
+- *Apply:* Before changing incentives or penalties, trace the full equilibrium response. The target of the policy change is often not the player whose behavior shifts. This explains many "why didn’t the regulation work?" puzzles.
+
+#### 4.5.3 Less Freedom Can Make You More Powerful
+
+Having more options is not always advantageous. Restricting your own choices can force opponents to accommodate you.
+
+- **Burning your boats:** Cortez burned his ships to make retreat impossible, creating a credible commitment to fight. Because the opposing force knew Cortez couldn’t flee, they were incentivized to yield instead. By eliminating your own options, you change the other player’s calculus.
+- *Apply:* Pre-commitment devices (public announcements, contractual lock-ins, organizational restructuring) are powerful precisely because they reduce your own flexibility. The key is credibility — the restriction must be genuinely irreversible.
+- *See also:* Chicken (4.2) — brinkmanship works by removing your own exit ramp.
+
+#### 4.5.4 The Winner’s Curse
+
+In common-value auctions (drilling rights, acquisition bids, jars of coins), winning is evidence of a mistake.
+
+- **Mechanism:** Every bidder estimates value with noise. The winner is the bidder with the *highest* estimate — which means they almost certainly *overestimated* the most. The mathematically optimal response is to bid as if you already know your estimate is the highest, forcing a drastic downward adjustment.
+- *Apply:* In competitive bidding, M&A, or any "auction-like" process: shade your bid down. The more bidders, the more aggressive the shading should be. If you won easily, worry.
+- *Toolkit links:* Overconfidence (2.17). Anchoring (2.2). Margin of Safety (3.6).
+
+#### 4.5.5 Utility Does Not Mean Selfishness
+
+A common objection to game theory is that it assumes sociopathic self-interest. This misunderstands what utility means.
+
+- **What utility actually is:** A mathematical measure of an agent’s preferences, *whatever those preferences are*. If a player values fairness, team well-being, or charitable impact above personal gain, those values are simply encoded in their payoffs.
+- **Implication:** Two selfless saints trying to maximize charitable donations can find themselves in a Prisoner’s Dilemma just as easily as two criminals. The *structure* of the game — not the morality of the players — determines the outcome.
+- *Apply:* When modeling a situation, don’t assume monetary payoffs. Map what players *actually* value (status, identity, fairness, legacy). The game often looks completely different once utility is defined correctly.
+
+#### 4.5.6 Time Is an Illusion; Information Is Everything
+
+Games are classified as "simultaneous" or "sequential," but what matters is information, not chronology.
+
+- **The key insight:** If Firm A moves on Monday and Firm B moves on Tuesday, but Firm B *does not know* what Firm A did, they are strategically playing a simultaneous game. Chronological order is irrelevant — what matters is what a player knows (and knows the other player knows) at the moment of decision.
+- *Apply:* When analyzing any strategic interaction, map the *information structure* — who knows what, and when — rather than the timeline. Many apparent sequential games are actually simultaneous, and vice versa.
+- *Toolkit links:* Bayesian Games (4.1). Signaling (4.3).
 
 **Game Theory — Quick Checklist**
 
-- What game are we in (PD, Stag Hunt, Chicken, Coordination)?  
-- One‑shot or repeated? What’s the discount factor (how much we value future)?  
-- What signals/commitments are credible?  
+- What game are we in (PD, Stag Hunt, Chicken, Coordination)?
+- One‑shot or repeated? What’s the discount factor (how much we value future)?
+- What signals/commitments are credible?
 - Can we redesign rules/incentives (mechanism design)?
+- Am I changing the right player’s payoffs, or will strategic effects backfire (4.5.2)?
+- What do players *actually* value — is utility defined correctly (4.5.5)?
+- What is the information structure, regardless of timing (4.5.6)?
 
 ---
 
