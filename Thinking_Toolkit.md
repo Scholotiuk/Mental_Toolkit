@@ -12,8 +12,7 @@
 - Frame problems with **Mental Models** → see mechanisms, trade-offs, and dynamics.  
 - Anticipate others with **Game Theory** → model strategic interaction and incentives.  
 - Contextualize with **History & Cycles** → identify recurring patterns and inflection points.  
-- Use **Checklists** to operationalize ideas during planning, reviews, and post-mortems.  
-- 
+- Use **Checklists** to operationalize ideas during planning, reviews, and post-mortems.
 
 ## Table of Contents
 - [1. Razors](#1-razors-heuristics-for-cutting-noise)
@@ -27,7 +26,7 @@
 
 ---
 
-## 1\) Razors (Heuristics for Cutting Noise)
+## 1. Razors (Heuristics for Cutting Noise)
 
 Razors are rule‑of‑thumb filters. They don’t prove truth; they help prioritize what to test, read, or do next.
 
@@ -135,7 +134,7 @@ Razors are rule‑of‑thumb filters. They don’t prove truth; they help priori
 
 ---
 
-## 2\) Cognitive Biases (Mental Traps & Mitigations)
+## 2. Cognitive Biases (Mental Traps & Mitigations)
 
 Biases are systematic errors in judgment. Name them, and you can often neutralize them.
 
@@ -254,7 +253,7 @@ Each entry: **Definition • Historical/Everyday Example • Mitigate**
 
 ---
 
-## 3\) Mental Models (Portable Tools for Thinking)
+## 3. Mental Models (Portable Tools for Thinking)
 
 Models help you reason about structure, causality, scale, and trade‑offs.
 
@@ -368,8 +367,16 @@ Each entry: **Definition • Historical/Everyday Example • Apply**
 
 ### 3.20 Lindy Effect
 
-- For non‑perishables (ideas, books), future life expectancy rises with current age.  
+- For non‑perishables (ideas, books), future life expectancy rises with current age.
 - *Apply:* Weight durable knowledge; mix with frontier research.
+
+### 3.21 System Dynamics & Emergence
+
+- **Definition:** Complex systems exhibit behaviors (emergence) that cannot be predicted from individual components alone. System dynamics maps stocks, flows, delays, and feedback loops to understand these behaviors over time.
+- *Historical:* Donella Meadows' work on limits to growth; Jay Forrester's urban dynamics models; ant colonies exhibiting intelligence no single ant possesses.
+- *Example:* Traffic jams emerge from individual driving decisions without any central cause; market prices emerge from distributed agent behavior.
+- *Apply:* Map stocks and flows before intervening; look for leverage points (Meadows' hierarchy); expect delays between action and effect; beware of policy resistance — the system pushes back.
+- *Pitfalls:* Emergence can't be "designed" directly — create conditions, not blueprints. Over‑modeling adds false precision.
 
 **Models — Quick Checklist**
 
@@ -381,7 +388,9 @@ Each entry: **Definition • Historical/Everyday Example • Apply**
 
 ---
 
-## 4\) Game Theory (Strategic Interaction & Practice)
+---
+
+## 4. Game Theory (Strategic Interaction & Practice)
 
 Model how rational (and boundedly rational) actors behave when outcomes depend on each other’s choices.
 
@@ -441,7 +450,9 @@ Model how rational (and boundedly rational) actors behave when outcomes depend o
 - What signals/commitments are credible?  
 - Can we redesign rules/incentives (mechanism design)?
 
-## 5\) History & Cycles (Closer-In, Actionable Case Library)
+---
+
+## 5. History & Cycles (Closer-In, Actionable Case Library)
 
 *History doesn’t repeat, but it rhymes. This section collects closer-scale inflection points and recurring failure modes where bias, incentives, and system design determined outcomes.*
 
@@ -636,7 +647,7 @@ Each case uses a common schema:
 
 ---
 
-## 6\) Putting It Together (Operational Guides)
+## 6. Putting It Together (Operational Guides)
 
 ### 6.1 Decision Review Template (One‑Pager)
 
@@ -660,17 +671,57 @@ Each case uses a common schema:
 
 ---
 
-## 7\) Further Study (Selected Sources)
+## 7. Further Study (Selected Sources)
 
-- **Behavioral Economics/Psych:** Kahneman; Tversky; Thaler; Ariely.  
-- **Systems & Complexity:** Donella Meadows; J. H. Holland; Mitchell; Sterman.  
-- **Risk & Antifragility:** Taleb; Bernstein; Silver.  
-- **Strategy:** Schelling; Porter; Rumelt; Boyd.  
-- **Game Theory:** Osborne & Rubinstein; Dixit & Nalebuff; Shoham & Leyton‑Brown.
+### Behavioral Economics & Psychology
+- Kahneman — *Thinking, Fast and Slow*
+- Thaler & Sunstein — *Nudge* → [reference](book_references/nudge_reference.md)
+- Cialdini — *Influence* → [reference](book_references/influence_reference.md)
+- Cialdini — *Pre-Suasion* → [reference](book_references/pre_suasion_reference.md)
+- Levitt & Dubner — *Freakonomics* → [reference](book_references/freakonomics_reference.md)
+
+### Systems & Complexity
+- Donella Meadows — *Thinking in Systems*
+- Hofstadter — *Gödel, Escher, Bach* → [reference](book_references/geb_reference.md)
+- McGilchrist — *The Master and His Emissary* → [reference](book_references/master_and_his_emissary_reference.md)
+- Sennett — *The Uses of Disorder* → [reference](book_references/uses_of_disorder_reference.md)
+
+### Risk, Antifragility & Foresight
+- Taleb — *The Black Swan*; *Antifragile*
+- Strauss & Howe — *The Fourth Turning* → [reference](book_references/fourth_turning_reference.md)
+- Webb — *The Signals Are Talking* → [reference](book_references/signals_are_talking_reference.md)
+- van der Heijden — *Scenarios: The Art of Strategic Conversation* → [reference](book_references/scenarios_reference.md)
+
+### Strategy & Decision-Making
+- Rumelt — *Good Strategy / Bad Strategy* → [reference](book_references/good_strategy_bad_strategy_reference.md)
+- Aurelius — *Meditations* → [reference](book_references/meditations_reference.md)
+- Durant & Durant — *The Lessons of History* → [reference](book_references/lessons_of_history_reference.md)
+
+### Game Theory
+- Osborne & Rubinstein — *A Course in Game Theory*
+- Dixit & Nalebuff — *Thinking Strategically*
+- Shoham & Leyton-Brown — *Multiagent Systems*
+
+### Communication & Marketing
+- Miller — *Building a StoryBrand* → [reference](book_references/building_a_storybrand_reference.md)
+- Godin — *This Is Marketing* → [reference](book_references/this_is_marketing_reference.md)
+- Ries & Trout — *Positioning* → [reference](book_references/positioning_reference.md)
+- Handley — *Everybody Writes* → [reference](book_references/everybody_writes_reference.md)
+- Weinberg & Mares — *Traction* → [reference](book_references/traction_reference.md)
+
+### Community & Cooperation
+- Bacon — *The Art of Community* → [reference](book_references/art_of_community_reference.md)
+- Powazek — *Design for Community* → [reference](book_references/design_for_community_reference.md)
+- Ludwig & Gimnig — *The Cooperative Culture Handbook* → [reference](book_references/cooperative_culture_handbook_reference.md)
+- Cavanaugh — *Contagious Culture* → [reference](book_references/contagious_culture_reference.md)
+
+### Design & Product
+- Stickdorn et al. — *This Is Service Design Doing* → [reference](book_references/this_is_service_design_doing_reference.md)
+- Patton — *User Story Mapping* → [reference](book_references/user_story_mapping_reference.md)
 
 ---
 
-## 8\) Quick Reference Checklists (Printer‑Friendly)
+## 8. Quick Reference Checklists (Printer-Friendly)
 
 **A. Razors**
 
